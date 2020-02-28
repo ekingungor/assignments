@@ -1,0 +1,1 @@
+A Computer vs Player XOX game over console, with almost no graphical interface.
