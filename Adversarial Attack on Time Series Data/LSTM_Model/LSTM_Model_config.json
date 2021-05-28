@@ -1,0 +1,31 @@
+
+
+{
+  "_comment": "===== File Paths =====",
+  "train_npy_file_path": "/Users/ekin/Documents/Adverserial_Time_Series/LSTM_Model/ECG5000_TRAIN_normalized.npy",
+  "test_npy_file_path": "/Users/ekin/Documents/Adverserial_Time_Series/LSTM_Model/ECG5000_TEST_normalized.npy",
+  "shuffle": false,
+  "random_seed": 1,
+
+  "_comment": "===== CHECKPOINT =====",
+  "save_model_to_directory": "/Users/ekin/Documents/Adverserial_Time_Series/LSTM_Model/Checkpoint/",
+  "load_model_from_directory": "/Users/ekin/Documents/Adverserial_Time_Series/LSTM_Model/Checkpoint/",
+  "iterations_per_checkpoints": 300,
+  "max_to_keep": 20,
+
+  "_comment": "===== HYPERPARAMETERS =====",
+  "batch_size": 16,
+  "hidden_layer_size": 8,
+  "num_LSTM_layers" : 1,
+
+  "_comment": "=====DATA PARAMETERS=====",
+  "num_of_classes": 2,
+  "num_of_time_steps": 140,
+  "num_of_features": 1,
+  
+   "_comment": "=====MODE=====",
+  "mode": "test",
+  "steps": 20000,
+  "iterations_per_accuracy_test": 51,
+  "iterations_per_cross_validaton_test": 200
+}

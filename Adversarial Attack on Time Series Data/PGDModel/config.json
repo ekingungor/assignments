@@ -1,0 +1,25 @@
+{
+  "_comment": "===== MODEL CONFIGURATION =====",
+  "model_dir": "/Users/ekin/Documents/Adverserial_Time_Series/LSTM_M/Checkpoint/",
+
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "random_seed": 4557077,
+  "max_num_training_steps": 140,
+  "num_output_steps": 100,
+  "num_summary_steps": 100,
+  "num_checkpoint_steps": 300,
+  "training_batch_size": 16,
+
+  "_comment": "===== EVAL CONFIGURATION =====",
+  "num_eval_examples": 4208,
+  "eval_batch_size": 16,
+  "eval_on_cpu": true,
+
+  "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+  "epsilon": 0.1,
+  "k": 40,
+  "a": 0.01,
+  "random_start": true,
+  "loss_func": "cw",
+  "store_adv_path": "/Users/ekin/Documents/Adverserial_Time_Series/attack.npy"
+}
